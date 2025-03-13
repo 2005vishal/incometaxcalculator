@@ -39,7 +39,7 @@ This **Income Tax Calculator** is a web application built using **Streamlit** th
 ## 📸 Screenshots
 | New Tax Regime vs Old Tax Regime |
 |----------------------------------|
-| ![Interface](screenshots/"C:\Users\lenovo\PycharmProjects\incometaxcalculator\p1.png") |
+| ![Interface](https://github.com/2005vishal/incometaxcalculator/blob/39a8b365aa608a9c4ed18600ef44a0d8912018e1/p1.png) |
 | ![Tax Comparison](screenshots/tax_comparison.png) |
 | ![Pie Chart](screenshots/pie_chart.png) |
 | ![Bar Graph](screenshots/bar_graph.png) |
