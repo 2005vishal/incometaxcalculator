@@ -34,14 +34,13 @@ This **Income Tax Calculator** is a web application built using **Streamlit** th
 4. Open the **localhost URL** in your browser to use the calculator.
 
 ## 🌍 Live Streamlit App
-👉 **[Click here to try the live demo](https://incometaxcalculator-6frtvhcznrdnxtyww3aekz.streamlit.app/)**
+👉 **[Click here to try the live demo](https://incometaxcalculator-yyzsieyizsr5nuhcsfazyj.streamlit.app/)**
 
 ## 📸 Screenshots
 | New Tax Regime vs Old Tax Regime |
 |----------------------------------|
 | ![Interface](https://github.com/2005vishal/incometaxcalculator/blob/39a8b365aa608a9c4ed18600ef44a0d8912018e1/p1.png) |
 | ![Tax Comparison](https://github.com/2005vishal/incometaxcalculator/blob/3a28f99994a6b5522ee5cb3c581cbceb7a8abe3f/p2.png) |
-| ![Pie Chart](https://github.com/2005vishal/incometaxcalculator/blob/e5fa815992cf7a67defddb63b7935a499a31a5ac/p3.png) |
 | ![Bar Graph](https://github.com/2005vishal/incometaxcalculator/blob/398b6ebcc50a9b403d0c94090182f3a953b2f163/p4.png) |
 
 ## 📞 Contact
