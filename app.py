@@ -74,6 +74,11 @@ df_new_tax = pd.DataFrame(data = { " ": ["Tax","Surcharge","Cess","Total Tax"],
                                    "Old Tax Regime 2024-25": [tax_old,surcharge_old,cess_old,total_tax_old]
 })
 
+df_new_pie = pd.DataFrame(data = { " ": ["Tax","Surcharge","Cess"],
+                                   "New Tax Regime 2025-26": [tax_new,surcharge_new,cess_new],
+                                   "Old Tax Regime 2024-25": [tax_old,surcharge_old,cess_old]
+})
+
 st.subheader("𝞹📈🧠📚New Tax Regime v/s Old Tax Regime")
 col6,col7 = st.columns(2)
 with col6:
@@ -82,19 +87,20 @@ with col6:
 with col7:
     st.bar_chart(df_new_tax, x=' ', y='Old Tax Regime 2024-25')
 
+
 st.subheader("⭕New Tax Regime v/s Old Tax Regime")
 col8, col9 = st.columns(2)
 with col8:
-    fig1 = px.pie(data_frame=df_new_tax, names=df_new_tax[" "], values='New Tax Regime 2025-26',color=' ',
-             color_discrete_map={'Total Tax':'lightcyan',
+    fig1 = px.pie(data_frame=df_new_pie, names=df_new_pie[" "], values='New Tax Regime 2025-26',color=' ',
+             color_discrete_map={
                                  'Tax':'cyan',
                                  'Cess':'royalblue',
                                  'Surcharge':'darkblue'},title = "New Tax Regime")
     st.plotly_chart(fig1)
 
 with col9:
-    fig2 = px.pie(data_frame=df_new_tax, names=df_new_tax[" "], values='Old Tax Regime 2024-25',color=' ',
-             color_discrete_map={'Total Tax':'lightcyan',
+    fig2 = px.pie(data_frame=df_new_pie, names=df_new_pie[" "], values='Old Tax Regime 2024-25',color=' ',
+             color_discrete_map={
                                  'Tax':'cyan',
                                  'Cess':'royalblue',
                                  'Surcharge':'darkblue'} ,title = "Old Tax Regime")
